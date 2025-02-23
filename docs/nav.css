@@ -3,7 +3,7 @@
     margin: 0;
   }
   
-  body {
+  #navBar {
     font-family: Arial, Tahoma, Serif;
     color: #263238;
   }
@@ -44,7 +44,7 @@
     }
   } 
 
-  button {
+  #butt {
     height: 30px;
     width: 500px;
     display: flex;
