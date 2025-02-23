@@ -12,6 +12,7 @@ export default defineConfig({
                 simple: resolve(__dirname, "simpleSite.html"),
                 color: resolve(__dirname, "colorGenerator.html"),
                 checker: resolve(__dirname, "palindrome.html"),
+                rnConverter: resolve(__dirname, "rnConverter.html"),
             }
 
         }
