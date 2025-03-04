@@ -13,6 +13,7 @@ export default defineConfig({
                 color: resolve(__dirname, "colorGenerator.html"),
                 checker: resolve(__dirname, "palindrome.html"),
                 rnConverter: resolve(__dirname, "rnConverter.html"),
+                phoneVerify: resolve(__dirname, "phoneVerify.html"),
             }
 
         }

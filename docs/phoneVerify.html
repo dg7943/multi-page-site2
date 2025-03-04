@@ -1,0 +1,37 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="verify.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <title>Telephone Number Validator</title>
+  </head>
+  <body>
+    <main>
+      <nav id="navBar">
+        <h2>Phone Verification</h2>
+        <ul>
+          <li><a href="index">Home Page</a></li>
+          <li><a href="profile">Profile</a></li>
+          <li><a href="simpleSite">Week 2 Features</a></li>
+          <li><a href="colorGenerator">Color Generator</a></li>
+          <li><a href="palindrome">Palindrome Checker</a></li>
+          <li><a href="rnConverter">Roman Numeral Converter</a></li>
+          <li><a href="phoneVerify">Phone Number Verification</a></li>
+        </ul>
+      </nav>
+      <h1>Telephone Number Validator</h1>
+      <div class="phone-container">
+        <label for="user-input">Enter a Phone Number:</label>
+        <input type="text" placeholder="Example: 1 555-555-5555" id="user-input" maxlength="20" value="" />
+        <div id="results-div"></div>
+        <div class="phone-footer">
+          <button  id="check-btn">Check</button>
+          <button id="clear-btn">Clear</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
